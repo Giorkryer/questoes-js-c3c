@@ -13,8 +13,7 @@ function gerarResult(nota) {
     }
     else{
         document.getElementById("result").innerHTML=(`Aluno foi aprovado com nota ${notaCorrigida}`)
-    }
-    
+    }  
 }
 
 
@@ -26,8 +25,6 @@ function arredondar (nota) {
     } else {
         return nota = nota - (nota % 5)
     }
-
-
 }
 
 
