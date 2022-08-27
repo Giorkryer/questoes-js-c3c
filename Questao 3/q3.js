@@ -20,7 +20,7 @@ function gerarResult(nota) {
 function arredondar (nota) {
     if (nota < 38) {
         return nota;
-    } else if (nota % 5 > 3 ) {
+    } else if (nota % 5 >= 3 ) {
         return Math.ceil(nota / 5) * 5;
     } else{
         return nota;
